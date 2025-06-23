@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sher</title>
+    <style>
+        #h1 {
+            text-align: center;
+            background-color: rgb(166, 194, 255);
+            border: 3px solid red;
+            border-radius: 20px;
+        }
+
+        .h {
+            text-align: center;
+            background-color: yellow;
+            color: green;
+        }
+        h4{
+            color: green;
+            font-size: 20px;
+        }
+        #input1{
+            width: 1080px;
+            height: 45px;
+        }
+        button{
+            width: 300px;
+            height: 40px;
+            font-size: 20px;
+            background-color: rgb(106, 180, 255);
+        }
+        table{
+            width: 80%;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 2px solid black;
+            text-align: center;
+            
+        }
+        .red{
+            background-color: red;
+        }
+        .black{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="h1">Xush kelibsiz,<mark>Virtual Zooparkga!</mark> </h1>
+    <p>Bu yerda siz turli <i style="color: red;"><b>hayvonlarni</b></i> haqida qiziqarli malumotlar va topishingiz
+        mumkin</p>
+    <h2 class="h" style="color: green;">Bizning hayvonlar</h2>
+    <ul>
+        <li><b>Arslonlar</b>-o'rmon qirollari</li>
+        <li><b>Fillar</b>-yer yuzidagi eng katta quruqlik hayvonlari</li>
+    </ul>
+    <h2 class="h">Hayvonlar haqida qiziqarli faktlar</h2>
+    <center>
+        <img width="600px" height="359px"
+            src="https://www.queenelizabethparkuganda.com/wp-content/uploads/2019/12/isahsha-tree-climbing-lions-750x391.jpg"
+            alt="">
+        <img width="600px"
+            src="https://www.lakemanyaranationalparks.com/wp-content/uploads/2021/05/tree-climbing-lion.jpg" alt="">
+    </center>
+    <h2 class="h">Hayvonlarni ko'rish</h2>
+    <center>
+        <iframe width="1000" height="500" src="https://www.youtube.com/embed/8-6YqxYAkd0?si=Vkxa7PcCpC0o_2JA"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
+    <h4>O'z fikringizni yozib qoldiring</h4>
+    <form action="">
+        <input id="input1" type="text">
+        
+    </form>
+    <h4>Sevomli hayvoningiz qaysi</h4>
+    <form action="">
+        <label for="">Sher</label>
+        <input id="input2" type="radio" name="animal"> <br>
+        <label for="">Fil</label>
+        <input id="input2" type="radio" name="animal"><br>
+        <button type="submit">Jo'natish</button>
+    </form>
+    <h2 class="h">Hayvonlar haqida to'liq malumotlar jadvali</h2>
+    <table>
+        <thead>
+            <tr>
+                <th style="background-color: green; color: white;">Hayvon</th>
+                <th style="background-color: blue; color: white;">Qiziqarli fakt</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="color: white;" class="red">Arslon</td>
+                <td style="color: white;" class="black">Arslonlar kunning 20 soatini uyqu bilan o'tqazishadi</td>
+            </tr>
+            <tr>
+                <td style="color: white;" class="red">Fil</td>
+                <td style="color: white;" class="black">Fillar suvni o'zligini burni bilan ichishadi</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
